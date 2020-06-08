@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.conteiner1 {
+header {
     width: 100vw;
     height: 300px;
     background-color: yellow;
@@ -18,12 +18,16 @@
     float: left;
 }
 
-.center {
+main {
     height: 600px;
     width: 50%;
-    background-color: #8B008B;
     float: left;
-    padding: 0px 20px 10px;
+    padding: 0px 20px;
+}
+
+.contenitore {
+    background-color: #8B008B;
+    height: 100%
 }
 
 .right {
@@ -34,7 +38,7 @@
     margin-bottom: 20px;
 }
 
-.bottom {
+footer {
     width: 100vw;
     height: 125px;
     background-color: #ADD8E6;
